@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/d9d33c630f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Drag and Drop</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-heading">Trello Clone</h1>
+    </header>
+    <div class="mainContainer">
+      <div class="card-btn-wrapper">
+        <div class="container container-backlog">
+          <h3 class="heading-container" contenteditable="true">Backlog</h3>
+          <div class="draggable" draggable="true" contenteditable="true">Primer kartice 1</div>
+        </div>
+        <button class="add-btn add-backlog"><i class="fas fa-plus"></i>add item</button>
+      </div>
+      <div class="card-btn-wrapper">
+        <div class="container container-in-progress">
+          <h3 class="heading-container" contenteditable="true">In Progress</h3>
+        </div>
+        <button class="add-btn add-in-progress"><i class="fas fa-plus"></i>add item</button>
+      </div>
+      <div class="card-btn-wrapper">
+        <div class="container container-complete">
+          <h3 class="heading-container" contenteditable="true">Complete</h3>
+        </div>
+        <button class="add-btn add-complete"><i class="fas fa-plus"></i>add item</button>
+      </div>
+      <div class="card-btn-wrapper">
+        <div class="container container-onHold">
+          <h3 class="heading-container" contenteditable="true">On Hold</h3>
+        </div>
+        <button class="add-btn add-onHold"><i class="fas fa-plus"></i>add item</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
